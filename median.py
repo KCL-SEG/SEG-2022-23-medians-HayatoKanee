@@ -12,6 +12,6 @@ while True:
 numbers.sort()
 length = len(numbers)
 if(length%2==0):
-    print (numbers[length // 2 - 1] + numbers[length // 2]/2)
+    print ((numbers[length // 2 - 1] + numbers[length // 2])/2)
 else:
     print (numbers[(length-1)//2])
